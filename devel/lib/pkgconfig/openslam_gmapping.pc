@@ -1,0 +1,8 @@
+prefix=/home/tianbot/tianbot_ws/devel
+
+Name: openslam_gmapping
+Description: Description of openslam_gmapping
+Version: 0.2.1
+Cflags: -I/home/tianbot/tianbot_ws/src/openslam_gmapping/include
+Libs: -L/home/tianbot/tianbot_ws/devel/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastslam
+Requires: 
